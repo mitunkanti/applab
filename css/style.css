@@ -44,13 +44,15 @@ header{
 .banner-left{
     padding: 180px 100px ;
 }
-
+.banner-left img{
+	margin-left: -55px;
+}
 .banner-left span{
 	font-size: 18px;
     padding: 5px 50px;
     background: #e2eaed;
     border-radius: 15px;
-}
+ }  
 
 .banner-left h1 {
 	padding: 20px 0px;
@@ -443,6 +445,9 @@ header{
 	font-size: 16px;
 	color: gray;
 }
+.client-icon{
+	margin-top: 15px;
+}
 .client-icon i{
 	color: gray;
 }
@@ -474,8 +479,7 @@ header{
 	text-align: center;
 }
 .frequently-body{
-	background: #f5f7fa;
-    margin: 0 auto;
+	margin: 0 auto;
     width: 75%;
     margin-top: 30px;
     padding:20px;
@@ -488,7 +492,15 @@ header{
 	color: #242f51;
 	margin-bottom: 15px;
 }
-
+.accordion-button{
+	background: #f5f7fa !important;
+}
+.accordion-button::after{
+	background: url(../img/plus-sign.png) !important;
+}
+.accordion-body{
+	background: #f5f7fa;
+}
 .accordion-body p{
 	font-size: 16px;
 	color: gray;
@@ -555,6 +567,7 @@ header{
 }
 .footer-social-media .last{
 	color: white !important;
+	transform: rotate(28deg);
 }
 .footer-text{
 	color: gray;
