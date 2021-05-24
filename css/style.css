@@ -1,0 +1,564 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+/*************************************
+	   Header section CSS Start
+*************************************/
+header{
+	padding: 20px 0px;
+    width: 100%;
+}
+.nav-item a{
+	color: black;
+	font-weight: 600;
+	font-size: 16px;
+}
+.btn {
+	background: #2500f9 !important;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 30px;
+	margin-left: 40px;
+} 
+
+/*************************************
+	   Banner section CSS Start
+*************************************/
+.banner{
+	background: url(../img/background.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.banner-left{
+    padding: 180px 100px ;
+}
+
+.banner-left span{
+	font-size: 18px;
+    padding: 5px 50px;
+    background: #e2eaed;
+    border-radius: 15px;
+}
+
+.banner-left h1 {
+	padding: 20px 0px;
+	font-weight: 600;
+	font-size: 60px;
+
+}
+.banner-left p{
+	font-size: 18px;
+	color: gray;
+}
+.banner-left-btn{
+	padding: 20px 0px;
+}
+.banner-left-btn button{
+	background: #2500f9 !important;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
+.banner-left-btn a {
+	color: #2500f9;
+	font-size: 16px;
+	font-weight: 500;
+	margin-left: 30px;
+	text-decoration: none;
+}
+
+
+.banner-right img{
+	border-radius: 35px;
+	padding-right: 30px;
+}
+
+/*************************************
+	Companies like section CSS Start
+*************************************/
+
+.companies-like{
+	padding: 80px 0px;
+	text-align: center;
+}
+
+.companies-like p{
+	color: gray;
+	font-size: 16px;
+}
+.companies-logo {
+	text-align: center;
+	padding: 30px;
+}
+
+/*************************************
+	Awesome Apps section CSS Start
+*************************************/
+
+.awesome-apps-right h3{
+	font-weight: 600;
+	font-size: 36px;
+	margin-top: 30px;
+}
+.awesome-apps-right p{
+	color: gray;
+	font-size: 16px;
+}
+
+.awesome-bottom-part {
+	margin-top: 10px;
+}
+.awesome-bottom-part img {
+	margin-top: 30px;
+}
+.awesome-bottom-part h5 {
+	font-size: 20px;
+	color: #f55767;
+}
+.awesome-bottom-part p {
+	font-size: 16px;
+	color: gray;
+}
+.part-2{
+	color: #2563FF !important;
+}
+.part-3{
+	color: #5AA373 !important;
+}
+
+
+/*************************************
+	Smart Jackpots section CSS Start
+*************************************/
+
+.smart-jackpots{
+	padding: 80px 0px;
+}
+
+.smart-jackpots h4{
+	font-weight: 600;
+	font-size: 40px;
+	padding: 0px 50px;
+	border-right: 1px solid #939497;
+	color: #242f51;
+}
+
+.smart-jackpots p{
+	font-size: 16px;
+	padding: 40px;
+	color: gray;
+}
+
+/*************************************
+	Automatic Payouts section CSS Start
+*************************************/
+.automatic-payouts .col-md-4{
+	padding: 0px 50px; 
+}
+
+.automatic-payouts .col-md-4 h6{
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #f55767;
+}
+
+.automatic-payouts .col-md-4 p{
+	font-size: 16px;
+}
+
+/*************************************
+	Designed section CSS Start
+*************************************/
+.designed{
+	padding: 50px;
+	border-bottom: 1px solid #939497;
+}
+.designed-right h3{
+	font-weight: 600;
+	font-size: 36px;
+	margin-top: 150px;
+}
+.designed-right p{
+	font-size: 16px;
+	color: gray;
+	padding: 20px 0px;
+}
+.designed-right button{
+	background: #2500f9 !important;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
+
+/*************************************
+	Our Apps section CSS Start
+*************************************/
+
+.our-apps{
+	padding: 80px;
+	text-align: center;
+}
+
+.our-apps h3{
+	color: #242f51;
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.our-apps p{
+	color: gray;
+	font-size: 16px;
+	margin-top: 20px;
+}
+.our-apps-bottom .col-md-4{
+	padding: 20px 50px;
+}
+.our-apps-bottom h5{
+	font-weight: 600;
+	font-size: 20px;
+	color: #242f51;
+}
+
+.our-apps-bottom p{
+	font-size: 16px;
+	color: gray;
+}
+
+/*************************************
+  Ultimate Features section CSS Start
+*************************************/
+.ultimate-features{
+	padding: 20px 0px;
+}
+
+.ultimate-left{
+	padding-left:  80px;
+}
+.ultimate-left h3{
+	font-size: 36px;
+	font-weight: 600;
+	text-align: left;
+	color: #242f51;
+}
+
+.ultimate-left p{
+	font-size: 16px;
+	text-align: left;
+	color: gray;
+	padding-bottom: 20px;
+}
+
+.ultimate-bottom h5{
+	font-size: 20px;
+	font-weight: 600;
+	color: #242f51;
+	padding-top: 20px;
+}
+.ultimate-bottom p{
+	font-size: 15px;
+	color: gray;
+}
+
+.ultimate-right{
+	margin-top: 40px;
+}
+
+.ultimate-btn{
+	background: #2500f9 !important;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 30px;
+}
+
+/*************************************
+  Get Awesome section CSS Start
+*************************************/
+.get-awesome{
+	padding: 100px 380px;
+	border-bottom: 1px solid #eef2f5;
+}
+
+.get-awesome-top h3{
+	font-size: 36px;
+	font-weight: 600;
+	color: #242f51;
+	text-align: center;
+}
+
+.get-awesome-top p{
+	font-size: 16px;
+	color: gray;
+	text-align: center;
+	margin-top: 20px;
+}
+.get-awesome-btn{
+	text-align: center;
+	margin-right: 120px;
+	margin-top: 50px;
+}
+.get-awesome-btn .btn-1{
+	background: #2500f9 ;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 30px;
+	margin-right: -25px;
+	z-index: 9999;
+	position: relative;
+	
+}
+.get-awesome-btn .btn-2{
+	background: gray;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 30px;
+	z-index: -9999;
+	position: absolute;
+}
+.get-awesome-price{
+	margin-top: 30px;
+}
+.price-section{
+	    box-shadow: 0px 10px 50px 10px rgb(0 0 0 / 5%)
+}
+
+.price-top{
+	padding: 20px;
+	background: #f5f8fa;
+	text-align: center;
+}
+
+.price-top h1{
+	font-size: 60px;
+	font-weight: 800;
+	color: #242f51;
+	margin-bottom: 20px;
+}
+.price-top h1 span{
+	font-size: 18px;
+	color: gray;
+}
+.price-top h6{
+	font-size: 20px;
+	font-weight: 600;
+	color: #242f51;
+}
+.price-top p{
+	font-size: 16px;
+	color: gray;
+}
+.price-body {
+	font-size: 16px;
+	color: gray;
+	text-align: center;
+	margin: 30px 0px;
+}
+.price-btn button{
+	background: #2500f9 ;
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	border-radius: 20px;
+	padding: 10px 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.price-section-2{
+	border: 2px solid #eef2f5;
+}
+
+.price-btn p{
+	color: #2500f9;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+/*************************************
+  Meet Client section CSS Start
+*************************************/
+
+.meet-client{
+	padding: 80px 0px ;
+}
+.meet-client-left{
+	margin-top: 50px;
+}
+
+.meet-client-right h1{
+	font-size: 40px;
+	font-weight: 600;
+	color: #242f51;
+}
+.meet-client-right p{
+	font-size: 16px;
+	color: gray;
+	margin-bottom: 30px;
+}
+.meet-client-right i{
+	color: yellow;
+	padding: 0px 0px 20px;
+}
+.meet-client-right h5{
+	font-size: 20px;
+	font-weight: 600;
+	color: #242f51;
+	margin-bottom: 25px;
+}
+.client-text h6{
+	font-size: 18px;
+	font-weight: 600;
+	color: #242f51;
+	margin-top: 12px;
+}
+.client-text p{
+	font-size: 16px;
+	color: gray;
+}
+.client-icon i{
+	color: gray;
+}
+
+.client-icon .last{
+	color: blue;
+    margin-left: 12px;
+    border-left: 1px solid gray;
+    padding: 10px;
+}
+
+/*************************************
+  Frequently section CSS Start
+*************************************/
+.frequently{
+	padding:40px 0px;
+	border-bottom: 1px solid #eef2f5;
+}
+.frequently-top h3{
+	font-size: 36px;
+	font-weight: 600;
+	color: #242f51;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.frequently-top p{
+	font-size: 16px;
+	color: gray;
+	text-align: center;
+}
+.frequently-body{
+	background: #f5f7fa;
+    margin: 0 auto;
+    width: 75%;
+    margin-top: 30px;
+    padding:20px;
+    margin-bottom: 30px;
+}  
+
+.frequently-body h2{
+	font-size: 20px;
+	font-weight: 600;
+	color: #242f51;
+	margin-bottom: 15px;
+}
+
+.accordion-body p{
+	font-size: 16px;
+	color: gray;
+	text-align: left;
+}
+
+/*************************************
+  	Download section CSS Start
+*************************************/
+.download-left{
+	margin-top: 35px;
+	padding-left: 150px;
+}
+.download-left h1{
+	font-size: 48px;
+	font-weight: 600;
+	color: #242f51;
+	text-align: left;
+}
+.download-left p{
+	font-size: 16px;
+	color: gray;
+	text-align: left;
+	margin: 20px 0px;
+}
+
+/*************************************
+  	Footer section CSS Start
+*************************************/
+.footer{
+	background: #09142e;
+	padding: 80px 0px;
+	margin-top: -38px;
+}
+.footer-top{
+	text-align: center;
+}
+.footer-menu{
+	text-align: center;
+	margin: 30px 0px; 
+}
+
+.footer-menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+.footer-menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.footer-menu ul li a:hover{
+	border-bottom: 1px solid white;
+}
+.footer-social-media{
+	text-align: center;
+	color: gray;
+}
+.footer-social-media i{
+	margin-left: 10px;
+}
+.footer-social-media i:hover{
+	color: white;
+}
+.footer-social-media .last{
+	color: white !important;
+}
+.footer-text{
+	color: gray;
+	font-size : 14px;
+	text-align: center;
+	padding-top: 50px;
+}
