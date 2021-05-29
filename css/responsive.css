@@ -59,7 +59,180 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+/*<!--Banner section code  -->*/
+  .banner-left {
+        margin-top: 10px !important;
+  }
+  .banner-left span {
+    font-size: 16px;
+    padding: 6px 50px;
+  }
+
+  .banner-left h1 {
+    padding: 20px 0px;
+    font-size: 36px;
+    text-align: center;
+  }
+  .banner-left p {
+    font-size: 16px;
+    text-align: center;
+}
+/*<!--Companies-like section  -->*/
+.companies-like p {
+     font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+.owl-carousel .owl-item img {
+    width: 100% !important;
+}
+
+.companies-logo {
+    padding: 30px 30px 0px !important;
+}
+/* <!--Awesome Apps section  -->*/
+.awesome-apps-right h3 {
+    font-size: 25px;
+    text-align: center;
+}
+  .awesome-apps-right p {
+    text-align: center;
+    margin-bottom: 0px !important;
+}
+.awesome-bottom-part h5 {
+    text-align: center;
+}
+.awesome-bottom-part img {
+    margin-left: 135px;
+}
+.awesome-bottom-part p {
+    text-align: center;
+}
+/* <!--Smart jackpots section  -->*/
+.smart-jackpots {
+    padding: 20px 0px;
+}
+.smart-jackpots h4 {
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0px 20px;
+    border-right: 0px !important; 
+    color: #242f51;
+    text-align: center;
+}
+.smart-jackpots p {
+    padding: 12px;
+    text-align: center;
+}
+/* <!--Automatic Payouts section  -->*/
+.automatic-payouts .col-md-4 {
+     padding: 0px 10px !important; 
+     text-align: center;
+}
+/* <!--Designed section  -->*/
+.designed {
+    padding: 10px;
+}
+.designed-right{
+  text-align: center;
+}
+.designed-right h3 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+.designed-right p {
+    padding: 10px 0px;
+}
+.designed-right button {
+    margin-bottom: 30px;
+}
+
+/*  <!--Our Apps section -->*/
+
+.our-apps {
+    padding: 10px;
+    text-align: center;
+}
+.our-apps h3 {
+    font-size: 25px;
+}
+.our-apps p {
+    font-size: 15px;
+}
+.our-apps-bottom .col-md-4 {
+    padding: 10px;
+}
+/*<!--Ultimate Features section --> */
+.ultimate-left {
+    padding-left: 10px;
+    text-align: center !important;
+}
+.ultimate-left h3 {
+    font-size: 30px;
+    text-align: center;
+}
+.ultimate-left p {
+    text-align: center;
+}
+/*<!--Get Awesome section --> */
+.get-awesome {
+     width: 100%; 
+}
+/* <!--Meet Client section  --> */
+
+.meet-client {
+    padding: 25px 0px;
+    text-align: center;
+}
+.meet-client-right{
+ padding: 30px 10px;
+}
+.meet-client-right h1 {
+    font-size: 25px;
+}
+
+/*  <!--Frequently section  --> */
+
+.frequently {
+  padding:0px !important;
+}
+.frequently-top h3 {
+    font-size: 23px;
+}
+.frequently-body {
+    width: 100% !important;
+}
+/*  <!--Download section -->*/
+
+.download-left {
+    padding-left: 10px;
+}
+/*<!--Footer section  --> */
+.footer {
+    padding: 10px 0px;
+    margin-top: -25px;
+}
+
+.footer-menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu ul li {
+    margin-left: 7px;
+    font-size: 12px;
+    padding-left: 0px;
+}
+.footer-text {
+    font-size: 9px;
+    padding-top: 20px;
+}
+
+
+
+
+
+
   /* CSS */
-  
+
 }

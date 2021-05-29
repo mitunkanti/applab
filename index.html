@@ -16,6 +16,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+    <!--Owl Carousel link-->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
     <!--Custom CSS link -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -27,7 +31,6 @@
   <body>
   <!--Header section code start from here -->
     <header>
-      <div class="container">
         <div class="row">
           <div class="col-md-12">
             <nav class="navbar navbar-expand-lg navbar-light ">
@@ -60,8 +63,7 @@
                 <button class="btn btn-outline-success" type="submit">Try for free</button>
           </form>
         </div>
-      </div>
-    </nav>
+      </nav>
           </div>
         </div>
     </div>
@@ -72,7 +74,7 @@
   <section class="banner">
    <div class="container">
      <div class="row">
-       <div class="col-md-8">
+       <div class="col-md-6">
         <div class="banner-left">
           <div class="banner-left-logo">
             <span><img src="img/logo-2.png" class="img-fluid">#1 Editiors Choice App of 2020</span>
@@ -85,7 +87,7 @@
           </div> 
         </div>
        </div>
-       <div class="col-md-4">
+       <div class="col-md-6">
          <div class="banner-right">
            <img src="img/phone.png" class="img-fluid">
          </div>
@@ -96,31 +98,36 @@
   <!--Banner section code end from here -->
 
   <!--Companies-like section code start from here -->
-  <section class="companies-like">
+  <section class="companies-like" id="cl">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <p>Trusted by companies like</p>
           <div class="companies-logo">
             <div class="row">
-              <div class="col-md-1"></div>
-              <div class="col-md-2">
-                <img src="img/9.png" class="img-fluid">
-              </div>
-              <div class="col-md-2">
-                <img src="img/group11.png" class="img-fluid">
-              </div>
-              <div class="col-md-2">
-                <img src="img/group45.png" class="img-fluid">
-              </div>
-              <div class="col-md-2">
-                <img src="img/group57.png" class="img-fluid">
-              </div>
-              <div class="col-md-2">
-                <img src="img/group58.png" class="img-fluid">
-              </div>
-              <div class="col-md-1"></div>
+          <div class="col-md-12">
+            <div class="owl-carousel owl-theme ">
+                <div class="item">
+                  <img src="img/9.png" class="img-fluid">
+                </div>
+
+                <div class="item">
+                  <img src="img/group11.png" class="img-fluid">
+                </div>
+
+                <div class="item">
+                  <img src="img/group45.png" class="img-fluid">
+                </div>
+                <div class="item">
+                  <img src="img/group57.png" class="img-fluid">
+                </div>
+
+                <div class="item">
+                  <img src="img/group58.png" class="img-fluid">
+                </div>
             </div>
+            
+          </div>
           </div>
         </div>
       </div>
@@ -134,12 +141,12 @@
   <section class="awesome-apps">
     <div class="container">
       <div class="row">
-        <div class="col-md-5">
+        <div class="col-md-6">
           <div class="awesome-apps-left">
             <img src="img/phone2.png" class="img-fluid">
           </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-6">
           <div class="awesome-apps-right">
             <h3>Awesome apps <br> features</h3>
             <p>Increase productivity with a simple to-do app. app for managing your personal budgets.</p>
@@ -391,7 +398,7 @@
           <div class="get-awesome-top">
             <h3>Get awesome features, without 
               extra charges</h3>
-            <p>The rise of mobile devices transforms the way we consume information entirely
+              <p>The rise of mobile devices transforms the way we consume information entirely
               and the world's most elevant channels such as Facebook.</p>  
           </div>
           <div class="get-awesome-btn">
@@ -452,14 +459,15 @@
   <!--Meet Client section code start from here --> 
   <section class="meet-client">
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-6">
         <div class="meet-client-left">
-          <img src="img/meet-client-banner.png" class="img-fluid">
+          <img src="img/meet_client.png" class="img-fluid">
         </div>
       </div>
-      <div class="col-md-5">
-        <div class="meet-client-right">
-          <h1>Meet Client Satisfaction
+      <div class="col-md-5" >
+        <div class="meet-client-right owl-carousel owl-theme"  >
+          <div class="meet-item">
+            <h1>Meet Client Satisfaction
             <br>by using product</h1>
           <p>The rise of mobile devices transforms the way we consume.
             <br>elevant channels such as Facebook.</p>
@@ -473,7 +481,7 @@
             <h5>User friendly & Customizable</h5>
             <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
             <div class="row">
-              <div class="col-md-2">
+              <div class="col-md-3">
                 <div class="client-pic">
                   <img src="img/person7.png" class="img-fluid">
                 </div>
@@ -484,19 +492,55 @@
                   <p>CEO of Pixler Lab</p>
                 </div>  
               </div>
-              <div class="col-md-4">
+              <div class="col-md-3" >
                 <div class="client-icon">
                   <img src="img/errow.png" class="img-fluid">
-<!--                   <i class="fa fa-arrow-circle-o-left fa-2x" aria-hidden="true"></i>
-                  <i class="last fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i> -->
-
+<!--                  <i class="fa fa-arrow-circle-o-left fa-2x" aria-hidden="true"></i>
+                  <i class="last fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i>  -->
                 </div>
               </div>
             </div>
+          </div>
+          <div class="meet-item">
+            <h1>Meet Client Satisfaction
+            <br>by using product</h1>
+          <p>The rise of mobile devices transforms the way we consume.
+            <br>elevant channels such as Facebook.</p>
+
+            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+
+            <h5>User friendly & Customizable</h5>
+            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="client-pic">
+                  <img src="img/person7.png" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="client-text">
+                  <h6>Zoltan Nemeth</h6>
+                  <p>CEO of Pixler Lab</p>
+                </div>  
+              </div>
+              <div class="col-md-3" >
+                <div class="client-icon">
+                  <img src="img/errow.png" class="img-fluid">
+<!--                  <i class="fa fa-arrow-circle-o-left fa-2x" aria-hidden="true"></i>
+                  <i class="last fa fa-arrow-circle-o-right fa-2x" aria-hidden="true"></i>  -->
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>  
     </div>
-  </section>
+  </section> 
 
 
   <!--Meet Client section code end from here --> 
@@ -647,8 +691,73 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
-  <!-- Custom JS link -->
-  <script src="js/main.js"></script>  
+    <!--jquery  link  -->
+    <script src="jquery/jquery-3.6.0.min.js"></script>  
+    <!-- Owl Carousel jquery  link  -->
+    <script src="js/jquery.min.js"></script>
+    <!--Owl Carousel  link java -->
+     <script src="js/owl.carousel.js"></script>
+
+ <script>
+      window.addEventListener('scroll',function(){
+      var header= document.querySelector('header');
+      header.classList.toggle('sticky',window.scrollY>0)
+      })
+</script>
+
+<script>
+  $(' #cl .owl-carousel').owlCarousel({
+
+    loop:true,
+    nav:false,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true,
+    dots:false,
+    
+    smartSpeed: 1500,
+    
+
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+
+  $(' .meet-client .owl-carousel').owlCarousel({
+       dots:false,
+       loop:true,
+       margin:10,
+       nav:true,
+       autoplay:true,
+       smartSpeed:500,
+       autoplayTimeout:3000,
+       autoplayHoverPause:true,
+       responsive:{
+        0:{
+            items:1
+        },
+        600:{
+           items:1
+        },
+       1000:{
+            items:1
+       }
+    }
+})
+
+
+
+
+</script>
 
 
   </body>
