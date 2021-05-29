@@ -190,6 +190,10 @@
 .meet-client-right h1 {
     font-size: 25px;
 }
+  
+  .client-icon img{
+  display: none !important;
+}
 
 /*  <!--Frequently section  --> */
 
